@@ -1,0 +1,40 @@
+app-id: ca.mesen.Mesen2
+runtime: org.freedesktop.Platform
+runtime-version: '22.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.dotnet6
+  - org.freedesktop.Sdk.Extension.llvm15
+command: Mesen
+build-options:
+  append-path: /usr/lib/sdk/dotnet6/bin:/usr/lib/sdk/llvm15/bin
+  prepend-ld-library-path: /usr/lib/sdk/llvm15/lib
+  append-ld-library-path: /usr/lib/sdk/dotnet6/lib
+  env:
+    PKG_CONFIG_PATH: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet6/lib/pkgconfig
+finish-args:
+  - --device=all
+  - --socket=fallback-x11
+  - --share=ipc
+  - --socket=pulseaudio 
+  - --filesystem=home:ro
+  - --persist=.config/Mesen2
+modules:
+  - name: Mesen2
+    sources:
+      - sources-app.json
+      - sources-runtime.json
+      - type: git
+        url: https://github.com/SourMesen/Mesen2.git
+        commit: 4c603ca25cf15557ceb87f63122b65e8f84432c2
+      - type: patch
+        path: makefile.patch
+      - type: dir
+        path: .
+    buildsystem: simple
+    build-commands:
+      - make
+      - install -D /run/build/Mesen2/bin/linux-x64/Release/linux-x64/publish/Mesen /app/bin/Mesen
+      - install -Dm644 mesen.png /app/share/icons/hicolor/512x512/apps/ca.mesen.Mesen2.png
+      - install -Dm644 mesen.desktop /app/share/applications/ca.mesen.Mesen2.desktop
+      - install -Dm644 metainfo.xml /app/share/metainfo/ca.mesen.Mesen2.metainfo.xml

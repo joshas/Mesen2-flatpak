@@ -1,0 +1,31 @@
+--- a/makefile	2023-04-29 13:54:52.570414011 +0300
++++ b/makefile	2023-04-29 13:53:53.889457399 +0300
+@@ -98,7 +98,7 @@
+ OBJFOLDER := obj.$(MESENPLATFORM)
+ RELEASEFOLDER := bin/$(MESENPLATFORM)/Release
+ 
+-PUBLISHFLAGS :=  -r $(MESENPLATFORM) --no-self-contained true -p:PublishSingleFile=true
++PUBLISHFLAGS :=  -r $(MESENPLATFORM) --self-contained true -p:PublishSingleFile=true
+ 
+ CORESRC := $(shell find Core -name '*.cpp')
+ COREOBJ := $(CORESRC:.cpp=.o)
+@@ -127,7 +127,7 @@
+ 	LIBEVDEVINC := -I../
+ endif
+ 
+-FSLIB := -lstdc++fs
++FSLIB := 
+ 
+ ifeq ($(MESENOS),osx)
+ 	LIBEVDEVOBJ := 
+@@ -144,8 +144,8 @@
+ 	rm -fr $(RELEASEFOLDER)/Dependencies/*
+ 	cp InteropDLL/$(OBJFOLDER)/$(SHAREDLIB) bin/$(MESENPLATFORM)/Release/$(SHAREDLIB)
+ 	#Called twice because the first call copies native libraries to the bin folder which need to be included in Dependencies.zip
+-	cd UI && dotnet publish -c Release -p:OptimizeUi="true" $(PUBLISHFLAGS)
+-	cd UI && dotnet publish -c Release -p:OptimizeUi="true" $(PUBLISHFLAGS)
++	cd UI && dotnet publish -c Release --source ../nuget-sources -p:OptimizeUi="true" $(PUBLISHFLAGS)
++	cd UI && dotnet publish -c Release --source ../nuget-sources -p:OptimizeUi="true" $(PUBLISHFLAGS)
+ 
+ core: InteropDLL/$(OBJFOLDER)/$(SHAREDLIB)
+ 

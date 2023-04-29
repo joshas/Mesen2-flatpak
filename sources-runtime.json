@@ -1,0 +1,170 @@
+[
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm/6.0.1/microsoft.aspnetcore.app.runtime.linux-arm.6.0.1.nupkg",
+        "sha512": "b72cd9ca4ce670267afe79762ff71d23898dd2e8fb6a4bc671c1d0e0e0c06be57c5670014b4a83875343f09e0977a68a3b8da1ccf56239d76fad22115300e150",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.aspnetcore.app.runtime.linux-arm.6.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/6.0.1/microsoft.aspnetcore.app.runtime.linux-arm64.6.0.1.nupkg",
+        "sha512": "e4cf63e86a96e09b6873146dc974c76b096d1c2306eacd531efc3f1cee9f2be13a4b897b326341b3d081598e93f9d34fa67fe9e8a54e3ea2949dc4568c7e550e",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.aspnetcore.app.runtime.linux-arm64.6.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/6.0.15/microsoft.aspnetcore.app.runtime.linux-x64.6.0.15.nupkg",
+        "sha512": "98c99a4c80c2a4aeb5b307e05ece17c30bbd1b5ebabd5b8ec78b2a46d9390c90d0a0064f95341845225c530ddc212355740c9b10fcea897ee871921a8514311e",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.6.0.15.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm/6.0.1/microsoft.netcore.app.runtime.linux-arm.6.0.1.nupkg",
+        "sha512": "3999195f9d22da631152073d47b221db2432a1ac5efa4bbb08f1e6716e95365150a69aeb754c9e1da277c447d29af0deb626226ae63171f27b47d777028217d5",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.netcore.app.runtime.linux-arm.6.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/6.0.1/microsoft.netcore.app.runtime.linux-arm64.6.0.1.nupkg",
+        "sha512": "81e9e34b6e8e7e5632b00f9ab87011c4ad66cf914560dfa95e3596c7a79dc9b310f7f592d4affe4f06dc80fd43214b13023d5c6f6f2caa893dadc7814afa90c5",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.netcore.app.runtime.linux-arm64.6.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/6.0.15/microsoft.netcore.app.runtime.linux-x64.6.0.15.nupkg",
+        "sha512": "84ef85ac8f14d3ff2824e09ebd06f83cca819864d718b0a69c3d0c48575488e9cef5c3436f5302e17fa7755ff1550c8b9c4fd625f606f070e3f3889eca3db9a3",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.netcore.app.runtime.linux-x64.6.0.15.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.unix.system.diagnostics.debug/4.3.0/runtime.unix.system.diagnostics.debug.4.3.0.nupkg",
+        "sha512": "a8ce331953b1f4424aa7f4b6dfedfce9ad138940bc92f332de2bc6d05185830ec6eb832e752f62eaf425f749caadd4ea1789121cb7ed79740fa5868eba55c838",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.unix.system.diagnostics.debug.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.unix.system.runtime.extensions/4.3.0/runtime.unix.system.runtime.extensions.4.3.0.nupkg",
+        "sha512": "54b81784c08e934389c59e6e155af6b1855e4bbc41678b01a702c94e6daba87c6ddfd16fe9e2cb61f3097bfa4950dbc37781454d027ce5ba6c50a393cc91b888",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.unix.system.runtime.extensions.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.unix.system.runtime.extensions/4.3.1/runtime.unix.system.runtime.extensions.4.3.1.nupkg",
+        "sha512": "d2854307ba04f22f661576e143499773b5d9a2aaef57203dd76d12fc78378adce60a2343d9402c332aae0ca8d97385a49951e6dba5e4a891c2c298e8b5de9638",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.unix.system.runtime.extensions.4.3.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.unix.system.private.uri/4.3.0/runtime.unix.system.private.uri.4.3.0.nupkg",
+        "sha512": "203ebe272791d79ab0c40afe9d0543852ee91b9fb4ae5bc15524d97728bc8bc9d7e0cbcf65d1fab8cfb0aa7a4ae37e7938933eef127aa5ea46f60e57b6ad2d91",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.unix.system.private.uri.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.unix.system.private.uri/4.3.2/runtime.unix.system.private.uri.4.3.2.nupkg",
+        "sha512": "35e1c405ab12e3a6cbba0dd74f2e9716732a03600be16ae5b88ec626dcc91857b65cd35e031be70dc55a7275010b1694a57c3baec87f464b7357be4200f7f4ed",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.unix.system.private.uri.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg",
+        "sha512": "299c5a96fffdcaf1972e3e3d1c727837d18ac9e88cb79c09914f12ff1de7280dff10c9232a49a1c1d3ba7785a5cf76f28c9dce414f0a2a567688de7fd5331dc8",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.native.system.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.openssl/4.3.2/runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "a34ad2dbe67efcae97fcbea57af386b30660a98ab8229a56c0dca241316e673cf7a26e19c6efb6b7117cc271fdf208741ba6f8447ae254c91acba3ddb7d2923a",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.private.uri/4.3.1/system.private.uri.4.3.1.nupkg",
+        "sha512": "5c8dcb4a7fbe8939d15e2bad3053d343e872706a9d0eef2cdafc5bcc7206b3675ae74ddeded679c72f08328a18e1bd23c0d85afd2f1412fed10b9d7fdd3f1004",
+        "dest": "nuget-sources",
+        "dest-filename": "system.private.uri.4.3.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "8f071552ee042f0cba39b1ba0a1205cf73de447d662995bae68f857a5946f7d154c029a79e37469081675687873c8bf2b9efe57f5cbd660c366b1ca51823f7f2",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "a135ca0f4f5a49319b5a52b7f4338f8a5fc4387edf26f29e6cbf63a3c3a37b2b5c51c9caf562ec41e470fba281060362465bc56915be782d6c75778aa6195e46",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "2f24e2cba88a96bb23848e1404878e4478a65642387b7b76aa4007587fe7c4d8208cbde53d3ed65f8d0d71cd688bfc16be66dc5f7bcf84c7b2ccf1b3c505b0b4",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "ce0873e07000df98e640bd265e969d4a9236535cee2699c5363f3ab297557b0d756260557995f2ee163cff05fc2ba922d66ba0e4cb28521f841e7d546ab3b63e",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "bf754c1a66cd70dc1bd38d54fe675e9dd470417ebba62e2f79e278be8f06cc3496ff58ed90d30b5dd4d3efea9accbd09eb17cd87be882951c0fdfb833c371f70",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "0a38f25e8773b58155b5d3f94f849b93353d0809da56228b8ebab5c976e6458ca50eb5a38acca4c8940678e6e9521fb57ae487337f7cbf2ea7893ae9e3f43935",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "2ae9db4b719b31fa7e40c60f52c70038fc8668e029cf4e1d120fde8c295631d6b08207d7018a22937b79546016c560c894e27dd6ebc01d5e0f677567e6b2c4f2",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "cd4b7ba744de80086521ab67cad2db3085d488388d3d9cb83d9946389f0f4c784539bf3a4ffb8d4f3347c5c7813aadef95b355fd2563e30c948a883c27b95287",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "d7fc28a9f600e471edce0989c01c485d4e2a7e99551f531413afa75039a4004d4e2c27e88976d65432635a321d86316a3c6cdaebc7b2fefa42141b64f4f10d66",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg",
+        "sha512": "5fe0e6a878eff59cfe24a8d57af51140576d8e0fec4988e4892c233c47b3a3eed27dec072a6c0d55dd615777cd9ce3fe545c5353b4a95289376ad0b9408ed4be",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg"
+    }
+]

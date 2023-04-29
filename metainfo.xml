@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>ca.mesen.Mesen2</id>
+  
+  <name>Mesen</name>
+  <summary>Mesen is a multi-system emulator for Windows and Linux. It supports NES, SNES, Game Boy (Color) and PC Engine games.</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>gamepad</control>
+  </supports>
+  
+  <description>
+    <p>
+      Mesen is a multi-system emulator for Windows and Linux. It supports NES, SNES, Game Boy (Color) and PC Engine games. It also includes an extensive set of debugging tools for homebrew development and romhacking.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">ca.mesen.Mesen2.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://www.emulator-zone.com/gallery/emulators/nes/mesen/ducktales/02.jpg</image>
+    </screenshot>
+  </screenshots>
+</component>
