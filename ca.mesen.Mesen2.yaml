@@ -26,7 +26,7 @@ modules:
       - sources-runtime.json
       - type: git
         url: https://github.com/SourMesen/Mesen2.git
-        commit: 4c603ca25cf15557ceb87f63122b65e8f84432c2
+        commit: 7a4e86b2beba81bd71b172bc88f4aa1ab35275e9
       - type: patch
         path: makefile.patch
       - type: dir
