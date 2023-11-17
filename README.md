@@ -19,3 +19,6 @@ Flatpak will be available in your desktop environent menu, but you can run it fr
 ```
 $ flatpak run ca.mesen.Mesen2
 ```
+
+## Update nuget dependencies
+Use [Flatpak .NET Generator](https://github.com/flatpak/flatpak-builder-tools/tree/master/dotnet) script to build updated `sources-app.json`. 
