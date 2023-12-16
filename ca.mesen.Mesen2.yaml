@@ -1,22 +1,22 @@
 app-id: ca.mesen.Mesen2
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.dotnet6
-  - org.freedesktop.Sdk.Extension.llvm15
+  - org.freedesktop.Sdk.Extension.llvm16
 command: Mesen
 build-options:
-  append-path: /usr/lib/sdk/dotnet6/bin:/usr/lib/sdk/llvm15/bin
-  prepend-ld-library-path: /usr/lib/sdk/llvm15/lib
+  append-path: /usr/lib/sdk/dotnet6/bin:/usr/lib/sdk/llvm16/bin
+  prepend-ld-library-path: /usr/lib/sdk/llvm16/lib
   append-ld-library-path: /usr/lib/sdk/dotnet6/lib
   env:
     PKG_CONFIG_PATH: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet6/lib/pkgconfig
 finish-args:
   - --device=all
-  - --socket=fallback-x11
   - --share=ipc
-  - --socket=pulseaudio 
+  - --socket=pulseaudio
+  - --socket=fallback-x11
   - --filesystem=home:ro
   - --persist=.config/Mesen2
 modules:
@@ -26,7 +26,7 @@ modules:
       - sources-runtime.json
       - type: git
         url: https://github.com/SourMesen/Mesen2.git
-        commit: c0e7d9faac6e3a7ceb49ca6c102d38b15dbc8307
+        commit: 90fe3a74059bd1d1bc61b39321f74286ccf9bce7
       - type: patch
         path: makefile.patch
       - type: dir
