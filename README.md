@@ -22,3 +22,6 @@ $ flatpak run ca.mesen.Mesen2
 
 ## Update nuget dependencies
 Use [Flatpak .NET Generator](https://github.com/flatpak/flatpak-builder-tools/tree/master/dotnet) script to build updated `sources-app.json`. 
+```
+$ python flatpak-dotnet-generator.py sources-app.json Mesen2-master/UI/UI.csproj
+```
