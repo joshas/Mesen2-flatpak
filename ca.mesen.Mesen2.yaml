@@ -26,14 +26,14 @@ modules:
       - sources-runtime.json
       - type: git
         url: https://github.com/SourMesen/Mesen2.git
-        commit: f5959beb3e7be0cad649e1febe053fe017837fea
+        commit: d208fdc6a7d6f981906ddb2de4fca30287b41646
       - type: patch
         path: makefile.patch
       - type: dir
         path: .
     buildsystem: simple
     build-commands:
-      - make -j$(nproc)
+      - USE_AOT=true make -j$(nproc)
       - install -D /run/build/Mesen2/bin/linux-x64/Release/linux-x64/publish/Mesen /app/bin/Mesen
       - install -Dm644 mesen.png /app/share/icons/hicolor/512x512/apps/ca.mesen.Mesen2.png
       - install -Dm644 mesen.desktop /app/share/applications/ca.mesen.Mesen2.desktop

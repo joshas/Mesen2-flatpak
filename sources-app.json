@@ -127,31 +127,31 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/dock.avalonia/11.0.0.7/dock.avalonia.11.0.0.7.nupkg",
-        "sha512": "357c268ef1d1f6b4933026a5dedc8714960031f5a86e8d6d094e087f1fdd7f92dbea1486aecb1c2b0cee19af21bc25bcc079464c494237f880b469ee3b6aebc8",
+        "url": "https://api.nuget.org/v3-flatcontainer/dock.avalonia/11.0.10/dock.avalonia.11.0.10.nupkg",
+        "sha512": "65dd3413df2cfa821e1e0c72ab51b8701c9bbed858eb2630509a2d7b26136cbd53a2cd239acaee744870a67e9a4c592a3a4d23a95b98331cbc30e4a5bd95324a",
         "dest": "nuget-sources",
-        "dest-filename": "dock.avalonia.11.0.0.7.nupkg"
+        "dest-filename": "dock.avalonia.11.0.10.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/dock.model/11.0.0.7/dock.model.11.0.0.7.nupkg",
-        "sha512": "b2c5f6c028d9783ed6fde321c273c9c5df9e8775a9c834278426d67ee1f1d9befd799a84b359e473318597e04398cc546c3a63ad928a6a6d7aaf6c0e2301ec6e",
+        "url": "https://api.nuget.org/v3-flatcontainer/dock.model/11.0.10/dock.model.11.0.10.nupkg",
+        "sha512": "d982c50590c4e7f095fb8db1a0d284deee68eb82f0990c46fec68897856e2bfb97a6bea1426f8c448a4e4716a8a676da7cec7850889810d9f9078f4f1a55fa57",
         "dest": "nuget-sources",
-        "dest-filename": "dock.model.11.0.0.7.nupkg"
+        "dest-filename": "dock.model.11.0.10.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/dock.model.mvvm/11.0.0.7/dock.model.mvvm.11.0.0.7.nupkg",
-        "sha512": "ad3fd5a57bb77daf33094dea76692ea1c6dd0112b71e6aa6c051317696f9baaca64df8e95fd6f3a205c42dfb60159cf6bb7b70c8b3b79e0efea7aebc1f6d8ce8",
+        "url": "https://api.nuget.org/v3-flatcontainer/dock.model.mvvm/11.0.10/dock.model.mvvm.11.0.10.nupkg",
+        "sha512": "29ae0823394c1d2e05706392ae5304d8a5c1b5c65a6cf82adfbb8e9c49849544740ebf07874b63e3eab15676900f19b4718eec96ef288d5fa9745cb7e7d7f644",
         "dest": "nuget-sources",
-        "dest-filename": "dock.model.mvvm.11.0.0.7.nupkg"
+        "dest-filename": "dock.model.mvvm.11.0.10.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/dock.settings/11.0.0.7/dock.settings.11.0.0.7.nupkg",
-        "sha512": "9c0cb73db0ed9eb547bff37a0e754448a6f39a398695ffab3ecd77e2f412fa22565b9d670474fe83cf7fea9fa443b192c426d7d101f25dbcae464e8b9b067aec",
+        "url": "https://api.nuget.org/v3-flatcontainer/dock.settings/11.0.10/dock.settings.11.0.10.nupkg",
+        "sha512": "cf0875a0099fe790baf44d7bf8bba833cade81f6bb23564cd9ad8c301173c67664106f7819bdadb1d096c4c5475c043b71123a9ab9bfcd4374ae122192d66d0a",
         "dest": "nuget-sources",
-        "dest-filename": "dock.settings.11.0.0.7.nupkg"
+        "dest-filename": "dock.settings.11.0.10.nupkg"
     },
     {
         "type": "file",

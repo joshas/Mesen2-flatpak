@@ -1,16 +1,16 @@
---- a/makefile	2023-04-29 13:54:52.570414011 +0300
-+++ b/makefile	2023-04-29 13:53:53.889457399 +0300
-@@ -108,7 +108,7 @@
- 	BUILD_TYPE = Debug
+--- a/makefile	2024-06-06 19:29:58.560198681 +0300
++++ b/makefile	2024-06-06 19:33:02.941420691 +0300
+@@ -115,7 +115,7 @@
+ 
+ 
+ ifeq ($(USE_AOT),true)
+-	PUBLISHFLAGS ?=  -r $(MESENPLATFORM) -p:PublishSingleFile=false -p:PublishAot=true -p:SelfContained=true
++	PUBLISHFLAGS ?=  -r $(MESENPLATFORM) --source ../nuget-sources -p:PublishSingleFile=false -p:PublishAot=true -p:SelfContained=true
+ else
+ 	PUBLISHFLAGS ?=  -r $(MESENPLATFORM) --no-self-contained true -p:PublishSingleFile=true
  endif
- 
--PUBLISHFLAGS ?=  -r $(MESENPLATFORM) --no-self-contained true -p:PublishSingleFile=true
-+PUBLISHFLAGS ?=  -r $(MESENPLATFORM) --self-contained true -p:PublishSingleFile=true
- 
- CORESRC := $(shell find Core -name '*.cpp')
- COREOBJ := $(CORESRC:.cpp=.o)
-@@ -137,7 +137,7 @@
- 	LIBEVDEVINC := -I../
+@@ -168,7 +168,7 @@
+ 	X11LIB :=
  endif
  
 -FSLIB := -lstdc++fs
@@ -18,14 +18,3 @@
  
  ifeq ($(MESENOS),osx)
  	LIBEVDEVOBJ := 
-@@ -154,8 +154,8 @@
- 	rm -fr $(OUTFOLDER)/Dependencies/*
- 	cp InteropDLL/$(OBJFOLDER)/$(SHAREDLIB) $(OUTFOLDER)/$(SHAREDLIB)
- 	#Called twice because the first call copies native libraries to the bin folder which need to be included in Dependencies.zip
--	cd UI && dotnet publish -c $(BUILD_TYPE) -p:OptimizeUi="true" $(PUBLISHFLAGS)
--	cd UI && dotnet publish -c $(BUILD_TYPE) -p:OptimizeUi="true" $(PUBLISHFLAGS)
-+	cd UI && dotnet publish -c $(BUILD_TYPE) --source ../nuget-sources -p:OptimizeUi="true" $(PUBLISHFLAGS)
-+	cd UI && dotnet publish -c $(BUILD_TYPE) --source ../nuget-sources -p:OptimizeUi="true" $(PUBLISHFLAGS)
- 
- core: InteropDLL/$(OBJFOLDER)/$(SHAREDLIB)
- 

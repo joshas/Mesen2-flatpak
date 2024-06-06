@@ -1,6 +1,20 @@
 [
     {
         "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.dotnet.ilcompiler/8.0.6/microsoft.dotnet.ilcompiler.8.0.6.nupkg",
+        "sha512": "a2212571042818adcac9cbbff6f2caa1503af52fa6e5ad9331e3dfeb45d1e467930d877fc11fd9c5031c70ad6a90a54a6e20af0b8ce88c8232996a6b3128b863",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.dotnet.ilcompiler.8.0.6.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.6/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.6.nupkg",
+        "sha512": "f0a57112ec8f6e6b28a9b4432f1f842ac75e8ef0bdee072def690a0c1ab129b250f49dba8567bc6712908ed22d4de1b9f0b9b626acfe6003d999fbe6645ddc16",
+        "dest": "nuget-sources",
+        "dest-filename": "runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.6.nupkg"
+    },
+    {
+        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/Microsoft.NET.ILLink.Tasks/8.0.6/Microsoft.NET.ILLink.Tasks.8.0.6.nupkg",
         "sha512": "e1df55eab906146a1a90101ad356464609be49f78a41c3cf12432e1f2c3032e8ef72b3c3e7a2d1b19588fb89531b51add81fc33fc3f8687185a9f0f827bfc33a",
         "dest": "nuget-sources",
