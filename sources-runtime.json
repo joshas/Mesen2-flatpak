@@ -1,38 +1,38 @@
 [
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.dotnet.ilcompiler/8.0.6/microsoft.dotnet.ilcompiler.8.0.6.nupkg",
-        "sha512": "a2212571042818adcac9cbbff6f2caa1503af52fa6e5ad9331e3dfeb45d1e467930d877fc11fd9c5031c70ad6a90a54a6e20af0b8ce88c8232996a6b3128b863",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.dotnet.ilcompiler/8.0.7/microsoft.dotnet.ilcompiler.8.0.7.nupkg",
+        "sha512": "9cb4a2c0b49fd555b88f1d81842ffe9c24c6291f8a6b7b2c3696b7a1bbfeee5f1c50d6b80ec2aba55eda833166efe1d6dc23535fe17460c1ad84abf17696cbf9",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.dotnet.ilcompiler.8.0.6.nupkg"
+        "dest-filename": "microsoft.dotnet.ilcompiler.8.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.6/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.6.nupkg",
-        "sha512": "f0a57112ec8f6e6b28a9b4432f1f842ac75e8ef0bdee072def690a0c1ab129b250f49dba8567bc6712908ed22d4de1b9f0b9b626acfe6003d999fbe6645ddc16",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.7/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.7.nupkg",
+        "sha512": "3d58d8d400f1489724c02ea0e3682a451622d7df4c99dee1f0f904eabe330a934c99306d4220148d6b2a88fdfa82c0cc3bc867fa4115f1b5624654d0d93c0106",
         "dest": "nuget-sources",
-        "dest-filename": "runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.6.nupkg"
+        "dest-filename": "runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/Microsoft.NET.ILLink.Tasks/8.0.6/Microsoft.NET.ILLink.Tasks.8.0.6.nupkg",
-        "sha512": "e1df55eab906146a1a90101ad356464609be49f78a41c3cf12432e1f2c3032e8ef72b3c3e7a2d1b19588fb89531b51add81fc33fc3f8687185a9f0f827bfc33a",
+        "url": "https://api.nuget.org/v3-flatcontainer/Microsoft.NET.ILLink.Tasks/8.0.7/Microsoft.NET.ILLink.Tasks.8.0.7.nupkg",
+        "sha512": "3a7df206415b81aadb0536c3e34752001141b0177e2dd2274800bcc455d61babcc2eadd2bb8f7710abce3a63c30fd88a23aba26cac1156e7b236367f7d6e539a",
         "dest": "nuget-sources",
         "dest-filename": "Microsoft.NET.ILLink.Tasks.8.0.6.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/8.0.6/microsoft.netcore.app.runtime.linux-x64.8.0.6.nupkg",
-        "sha512": "5bacb98224f0a6edba8223fa6cd0b6e4dbfb5656f371e0a8b61063492f6a47cac8b55a54b722e4786b8563845e7896f9e30a7cb5e185a5f5f3762aedd3734048",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/8.0.7/microsoft.netcore.app.runtime.linux-x64.8.0.7.nupkg",
+        "sha512": "10355aaae57cce97f0bcf9a7b25c9018df1a97a951aec5381f52649c96114607b6606bdc5f3df4bf808d26ac51c20d03a2d5de2a04420b113ffdd146027d4d68",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.runtime.linux-x64.6.0.27.nupkg"
+        "dest-filename": "microsoft.netcore.app.runtime.linux-x64.8.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/8.0.6/microsoft.aspnetcore.app.runtime.linux-x64.8.0.6.nupkg",
-        "sha512": "6c16d99992b6aa718d1025d990023257b52b8296c3966ccd2025dcee0af7725ee73367172de5f972dc2387ea0110a4391c7efe7e1fe448cbd6abccab161d2aa5",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/8.0.7/microsoft.aspnetcore.app.runtime.linux-x64.8.0.7.nupkg",
+        "sha512": "d988cda5c92f6d6389adfeef6883adbd5c1c1117af56a824d0db912631db27d1d4df4d8c5e72ed8c438df2037ff7ab57e5d71d14537ecc283a351e3ac3c3be48",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.8.0.6.nupkg"
+        "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.8.0.7.nupkg"
     },
     {
         "type": "file",
