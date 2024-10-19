@@ -4,9 +4,9 @@ My atempt to run Mesen2 in a flatpak. Using currently latest* version from GitHu
 
 ## Install build dependencies
 ```
-$ flatpak install flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08
-$ flatpak install org.freedesktop.Sdk.Extension.dotnet8//23.08
-$ flatpak install org.freedesktop.Sdk.Extension.llvm16//23.08
+$ flatpak install flathub org.freedesktop.Platform//24.08 org.freedesktop.Sdk//24.08
+$ flatpak install org.freedesktop.Sdk.Extension.dotnet8//24.08
+$ flatpak install org.freedesktop.Sdk.Extension.llvm19//24.08
 ```
 
 ## Build and install flatpak

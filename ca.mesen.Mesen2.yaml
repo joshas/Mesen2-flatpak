@@ -1,14 +1,14 @@
 app-id: ca.mesen.Mesen2
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.dotnet8
-  - org.freedesktop.Sdk.Extension.llvm16
+  - org.freedesktop.Sdk.Extension.llvm19
 command: Mesen
 build-options:
-  append-path: /usr/lib/sdk/dotnet8/bin:/usr/lib/sdk/llvm16/bin
-  prepend-ld-library-path: /usr/lib/sdk/llvm16/lib
+  append-path: /usr/lib/sdk/dotnet8/bin:/usr/lib/sdk/llvm19/bin
+  prepend-ld-library-path: /usr/lib/sdk/llvm19/lib
   append-ld-library-path: /usr/lib/sdk/dotnet8/lib
   env:
     PKG_CONFIG_PATH: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet8/lib/pkgconfig
@@ -26,7 +26,7 @@ modules:
       - sources-runtime.json
       - type: git
         url: https://github.com/SourMesen/Mesen2.git
-        commit: c5b260e066f49f195f526d6a62c22765965a3f94
+        commit: 7107579a9c072dd28f0b58b68a0d01508465948a
       - type: patch
         path: makefile.patch
       - type: dir
