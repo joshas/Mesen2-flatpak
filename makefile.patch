@@ -1,15 +1,6 @@
---- a/makefile	2024-06-06 19:29:58.560198681 +0300
-+++ b/makefile	2024-06-06 19:33:02.941420691 +0300
-@@ -115,7 +115,7 @@
- 
- 
- ifeq ($(USE_AOT),true)
--	PUBLISHFLAGS ?=  -r $(MESENPLATFORM) -p:PublishSingleFile=false -p:PublishAot=true -p:SelfContained=true
-+	PUBLISHFLAGS ?=  -r $(MESENPLATFORM) --source ../nuget-sources -p:PublishSingleFile=false -p:PublishAot=true -p:SelfContained=true
- else
- 	PUBLISHFLAGS ?=  -r $(MESENPLATFORM) --no-self-contained true -p:PublishSingleFile=true
- endif
-@@ -168,7 +168,7 @@
+--- a/makefile	2025-11-19 22:17:01.808146533 +0200
++++ b/makefile	2025-11-19 22:26:02.705119347 +0200
+@@ -182,7 +182,7 @@
  	X11LIB :=
  endif
  
@@ -18,3 +9,14 @@
  
  ifeq ($(MESENOS),osx)
  	LIBEVDEVOBJ := 
+@@ -204,8 +204,8 @@
+ 	cp InteropDLL/$(OBJFOLDER)/$(SHAREDLIB) $(OUTFOLDER)/$(SHAREDLIB)
+ 	#Called twice because the first call copies native libraries to the bin folder which need to be included in Dependencies.zip
+ 	#Don't run with AOT flags the first time to reduce build duration
+-	cd UI && dotnet publish -c $(BUILD_TYPE) $(OPTIMIZEUI) -r $(MESENPLATFORM)
+-	cd UI && dotnet publish -c $(BUILD_TYPE) $(OPTIMIZEUI) $(PUBLISHFLAGS)
++	cd UI && dotnet publish -c $(BUILD_TYPE) $(OPTIMIZEUI) -r $(MESENPLATFORM) --source ../nuget-sources
++	cd UI && dotnet publish -c $(BUILD_TYPE) $(OPTIMIZEUI) $(PUBLISHFLAGS) --source ../nuget-sources
+ 
+ core: InteropDLL/$(OBJFOLDER)/$(SHAREDLIB)
+ 
